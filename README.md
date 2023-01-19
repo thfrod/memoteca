@@ -10,6 +10,8 @@ CRUD desenvolvido com o objetivo de entender mais do ecossistema Angular e os se
     - Adicionar navegação dinâmica entre componentes através das rotas <br>
     - Aplicar injeção de dependências na aplicação <br>
     - Realizar requisições HTTP através da classe HttpClient e desenvolver um CRUD <br>
+### Fake Backend
+A aplicação conta com uma espécie de backend falso criado com o pacote `json-server` para testar e realizar requisões no front end.
 
 ### Como rodar a aplicação
 
