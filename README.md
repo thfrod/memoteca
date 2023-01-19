@@ -2,14 +2,14 @@
 
 ### Descrição
 
-CRUD desenvolvido com o objetivo de entender mais do ecossistema Angular e os seus seguintes conceitos: 
-    - Utilizar a ferramenta Angular CLI para criar um projeto e diversos tipos de arquivos
-    - Entender a estrutura de um componente em Angular
-    - Aprender como usar property binding, interpolação, event binding e two-way data binding
-    - Conhecer algumas das principais diretivas do Angular
-    - Adicionar navegação dinâmica entre componentes através das rotas
-    - Aplicar injeção de dependências na aplicação
-    - Realizar requisições HTTP através da classe HttpClient e desenvolver um CRUD
+CRUD desenvolvido com o objetivo de entender mais do ecossistema Angular e os seus seguintes conceitos:<br>
+    - Utilizar a ferramenta Angular CLI para criar um projeto e diversos tipos de arquivos <br>
+    - Entender a estrutura de um componente em Angular <br>
+    - Aprender como usar property binding, interpolação, event binding e two-way data binding <br>
+    - Conhecer algumas das principais diretivas do Angular <br>
+    - Adicionar navegação dinâmica entre componentes através das rotas <br>
+    - Aplicar injeção de dependências na aplicação <br>
+    - Realizar requisições HTTP através da classe HttpClient e desenvolver um CRUD <br>
 
 ### Como rodar a aplicação
 
