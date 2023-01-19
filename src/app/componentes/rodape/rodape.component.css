@@ -13,12 +13,9 @@ footer {
   justify-self: center;
   grid-area: TextoCopyright;
 }
-
-.LogoRodape {
-  justify-self: center;
-  grid-area: LogoRodape;
+footer a {
+  color: white;
 }
-
 footer small {
   color: white;
 }
