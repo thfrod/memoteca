@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { Pensamento } from '../pensamento';
+import { PensamentoService } from '../pensamento.service';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -6,12 +9,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./criar-pensamento.component.css'],
 })
 export class CriarPensamentoComponent {
-  pensamento = {
-    id: '1',
-    conteudo: 'Aprendendo angular',
-    modelo: 'modelo1',
-    autoria: 'Thiago',
+  constructor(private service: PensamentoService, private router: Router) {}
+  pensamento: Pensamento = {
+    conteudo: '',
+    modelo: '',
+    autoria: '',
   };
-  handleClickSave = () => alert('Thigas');
-  handleClickCancel = () => alert('Cancelado!');
+  criarPensamento() {
+    this.service
+      .criar(this.pensamento)
+      .subscribe(() => this.router.navigate(['/mural']));
+  }
+  cancelar = () => this.router.navigate(['/mural']);
 }
